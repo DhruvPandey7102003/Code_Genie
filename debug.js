@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Groq = require('groq-sdk');
-const groq = new Groq({ apiKey: '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' });
+const groq = new Groq({ apiKey: 'API KEY' });
 
 let codeInputForSnippet="";
 async function processCode(inpCode) {
